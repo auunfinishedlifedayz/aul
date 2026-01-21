@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AU UNFINISHED LIFE | DAYZ PVP</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/color/96/000000/skull.png">
+</head>
+<body>
+    <!-- Fond d'étoiles animé -->
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+    
+    <!-- Navigation circulaire -->
+    <nav class="circular-nav">
+        <div class="nav-center">
+            <div class="nav-title">
+                <span class="skull-icon">💀</span>
+                <h1>DEV BY FEARR</h1>
+            </div>
+        </div>
+        
+        <div class="nav-circle">
+            <a href="#home" class="nav-item active" data-tooltip="HOME">
+                <i class="fas fa-home"></i>
+            </a>
+            <a href="#rules" class="nav-item" data-tooltip="RULES">
+                <i class="fas fa-scroll"></i>
+            </a>
+            <a href="#discord" class="nav-item" data-tooltip="DISCORD">
+                <i class="fab fa-discord"></i>
+            </a>
+            <a href="#server" class="nav-item" data-tooltip="SERVER">
+                <i class="fas fa-server"></i>
+            </a>
+            <a href="#join" class="nav-item join-btn" data-tooltip="JOIN">
+                <i class="fas fa-skull"></i>
+            </a>
+        </div>
+        
+        <div class="nav-mobile-toggle">
+            <div class="hamburger"></div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="status-pulse">
+                <div class="pulse-circle"></div>
+                <span class="status-text">● LIVE</span>
+            </div>
+            
+            <div class="title-container">
+                <h2 class="hero-subtitle">HARDCORE NAMALSK DAYZ PVP</h2>
+                <h1 class="main-title">
+                    <span class="title-line">AN UNFINISHED</span>
+                    <span class="title-line">LIFE</span>
+                </h1>
+            </div>
+            
+            <p class="hero-tagline">
+                Namalsk Hardcore Survival ● 24/7 PVP ● ACTIVE ADMINS
+            </p>
+            
+            <div class="cta-buttons">
+                <button class="glow-btn join-now">
+                    <i class="fas fa-play"></i>
+                    <span>JOIN SERVER</span>
+                </button>
+                <button class="border-btn discord-connect">
+                    <i class="fab fa-discord"></i>
+                    <span>DISCORD</span>
+                </button>
+            </div>
+            
+            <div class="server-info-mini">
+                <div class="info-item">
+                    <span class="info-value">50/100</span>
+                    <span class="info-label">PLAYERS</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-value">24/7</span>
+                    <span class="info-label">SUPPORT</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-value">1.28</span>
+                    <span class="info-label">VERSION</span>
+                </div>
+            </div>
+            
+            <div class="scroll-hint">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rules Section -->
+    <section class="rules" id="rules">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">SERVER RULES</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="rules-grid">
+                <div class="rule-item">
+                    <div class="rule-icon">
+                        <i class="fas fa-ban"></i>
+                    </div>
+                    <h3>NO CHEATING</h3>
+                    <p>Zero tolerance for exploits or third-party software</p>
+                    <div class="severity critical">PERMA BAN</div>
+                </div>
+                
+                <div class="rule-item">
+                    <div class="rule-icon">
+                        <i class="fas fa-users-slash"></i>
+                    </div>
+                    <h3>NO TOXICITY</h3>
+                    <p>Respect all players - racism = instant ban</p>
+                    <div class="severity high">HIGH</div>
+                </div>
+                
+                <div class="rule-item">
+                    <div class="rule-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>RAIDING</h3>
+                    <p>24/7 allowed. Leave at least one wall standing</p>
+                    <div class="severity medium">MEDIUM</div>
+                </div>
+                
+                <div class="rule-item">
+                    <div class="rule-icon">
+                        <i class="fas fa-crosshairs"></i>
+                    </div>
+                    <h3>PVP</h3>
+                    <p>KOS everywhere. No safe zones. Stay alert</p>
+                    <div class="severity low">LOW</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Discord Section -->
+<section class="discord-section" id="discord">
+    <div class="discord-container"> <!-- Changement de classe -->
+        <div class="discord-header">
+            <div class="discord-logo">
+                <i class="fab fa-discord"></i>
+            </div>
+            <h2 class="section-title">COMMUNITY</h2>
+            <div class="title-underline"></div>
+        </div>
+        
+        <div class="discord-stats">
+            <div class="stat-circle">
+                <div class="circle-value" data-value="2500" data-suffix="k">2.5k</div>
+                <div class="circle-label">MEMBERS</div>
+            </div>
+            <div class="stat-circle">
+                <div class="circle-value" data-static="57+">50+</div>
+                <div class="circle-label">ONLINE</div>
+            </div>
+            <div class="stat-circle">
+                <div class="circle-value" data-static="24/7">24/7</div>
+                <div class="circle-label">SUPPORT</div>
+            </div>
+        </div>
+        
+        <button class="glow-btn discord-btn">
+            <i class="fab fa-discord"></i>
+            <span>JOIN DISCORD</span>
+        </button>
+    </div>
+</section>
+
+    <!-- Server Section -->
+    <section class="server-section" id="server">
+        <div class="section-container">
+            <div class="section-header">
+                <h2 class="section-title">CONNECT</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="connection-card">
+                <div class="ip-display">
+                    <code class="ip-address">185.83.152.115:3058</code>
+                    <button class="copy-btn">
+                        <i class="far fa-copy"></i>
+                    </button>
+                </div>
+                <p class="connection-note">Add to DAYZ launcher favorites</p>
+                
+                <div class="mods-list">
+                    <h4>REQUIRED MODS</h4>
+                    <ul>
+                        <li><i class="fas fa-check"></i> CF Tools 1.6.2</li>
+                        <li><i class="fas fa-check"></i> BaseBuildingPlus 3.5</li>
+                        <li><i class="fas fa-check"></i> MassManyItems 2.8</li>
+                        <li><i class="fas fa-check"></i> AUL MOD PACK</li>
+                        <li><i class="fas fa-check"></i> AUL STORAGE PACK</li>
+                        <li><i class="fas fa-check"></i> KILLFEED</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Join Section -->
+    <section class="join-section" id="join">
+        <div class="section-container">
+            <div class="final-cta">
+                <h2 class="cta-title">READY TO SURVIVE?</h2>
+                <p class="cta-subtitle">Join the most hardcore DAYZ PVP experience</p>
+                
+                <button class="pulse-btn main-join">
+                    <i class="fas fa-skull-crossbones"></i>
+                    <span>JOIN NOW</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <span class="skull-icon">💀</span>
+                <span class="footer-title">AU UNFINISHED LIFE</span>
+            </div>
+            <p class="copyright">© 2023 DAYZ PVP SERVER | NOT AFFILIATED WITH BOHEMIA</p>
+        </div>
+    </footer>
+
+    <!-- Connection Modal -->
+    <div class="modal-overlay" id="connectionModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3>SERVER CONNECTION</h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-ip-display">
+                    <code>dayz.unfinishedlife.com:2302</code>
+                </div>
+                <p>Copy this IP to your DAYZ launcher</p>
+            </div>
+            <div class="modal-footer">
+                <button class="border-btn">CLOSE</button>
+                <button class="glow-btn">COPY IP</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
